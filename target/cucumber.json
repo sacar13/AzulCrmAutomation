@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-18T11:39:54.608Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3699797700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "the user should be able to login",
+        "description": "",
+        "id": "login;the-user-should-be-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1372260500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6299983000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user on the login page",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283541900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the username and password",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11770388600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on login button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17983800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to see the title as \"Portal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_should_be_able_to_see_the_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
