@@ -1,29 +1,27 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-02-18T11:39:54.608Z",
+        "start_timestamp": "2022-02-18T13:18:44.686Z",
         "before": [
           {
             "result": {
-              "duration": 3699797700,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.azulcrm.step_definitions.Hooks.setUp()"
             }
           }
         ],
-        "line": 3,
-        "name": "the user should be able to login",
+        "line": 4,
+        "name": "User should be able to make a comment, like, or unfollow on other employees\u0027 posts.",
         "description": "",
-        "id": "login;the-user-should-be-able-to-login",
+        "id": "as-a-user--i-should-be-able-to-interact-with-employees-on-the-posts-that-i-have-access-to.;user-should-be-able-to-make-a-comment--like--or-unfollow-on-other-employees--posts.",
         "after": [
           {
             "result": {
-              "duration": 1372260500,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -35,71 +33,110 @@
         "steps": [
           {
             "result": {
-              "duration": 6299983000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 4,
-            "name": "the user on the login page",
-            "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_on_the_login_page()"
-            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 283541900,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 5,
-            "name": "the user enters the username and password",
-            "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_enters_the_username_and_password()"
-            },
+            "line": 6,
+            "name": "the user to clicks the like button on any Employee post",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 11770388600,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
-            "name": "the user clicks on login button",
-            "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_clicks_on_login_button()"
+            "line": 7,
+            "name": "the user should be able see the like icon on the screen",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 8,
+            "name": "the user clicks the follow button on any Employee post",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 17983800,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 7,
-            "name": "the user should be able to see the title as \"Portal\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Portal\"",
-                  "offset": 44
-                }
-              ],
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_should_be_able_to_see_the_title_as(java.lang.String)"
+            "line": 9,
+            "name": "the user should be able see the follow button changed as unfollow",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 10,
+            "name": "the user to clicks the comment button on any Employee post",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the user type \"Hello\" into the comment box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the user clicks the send button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "the user should be able to send the message",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
+          {
+            "name": "@portal"
+          },
           {
             "name": "@wip"
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "As a user, I should be able to interact with employees on the posts that I have access to.",
     "description": "",
-    "id": "login",
+    "id": "as-a-user--i-should-be-able-to-interact-with-employees-on-the-posts-that-i-have-access-to.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/Portal.feature",
+    "tags": [
+      {
+        "name": "@portal",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

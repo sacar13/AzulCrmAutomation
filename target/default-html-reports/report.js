@@ -1,63 +1,103 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Portal.feature");
 formatter.feature({
-  "name": "Login",
+  "name": "As a user, I should be able to interact with employees on the posts that I have access to.",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@portal"
+    }
+  ]
 });
 formatter.scenario({
-  "name": "the user should be able to login",
+  "name": "User should be able to make a comment, like, or unfollow on other employees\u0027 posts.",
   "description": "",
   "keyword": "Scenario",
   "tags": [
+    {
+      "name": "@portal"
+    },
     {
       "name": "@wip"
     }
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "the user on the login page",
+  "name": "the user logged in",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_on_the_login_page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "the user enters the username and password",
+  "name": "the user to clicks the like button on any Employee post",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_enters_the_username_and_password()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "the user clicks on login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_clicks_on_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should be able to see the title as \"Portal\"",
+  "name": "the user should be able see the like icon on the screen",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_should_be_able_to_see_the_title_as(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user clicks the follow button on any Employee post",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user should be able see the follow button changed as unfollow",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user to clicks the comment button on any Employee post",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user type \"Hello\" into the comment box",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user clicks the send button",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user should be able to send the message",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });
