@@ -3,11 +3,32 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-02-18T15:28:13.158Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17033265500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-19T21:51:05.419Z",
         "before": [
           {
             "result": {
-              "duration": 4182776800,
+              "duration": 4364635300,
               "status": "passed"
             },
             "match": {
@@ -15,14 +36,14 @@
             }
           }
         ],
-        "line": 4,
+        "line": 7,
         "name": "User should be able to make a comment, like, or unfollow on other employees\u0027 posts.",
         "description": "",
         "id": "as-a-user--i-should-be-able-to-interact-with-employees-on-the-posts-that-i-have-access-to.;user-should-be-able-to-make-a-comment--like--or-unfollow-on-other-employees--posts.",
         "after": [
           {
             "result": {
-              "duration": 1077837400,
+              "duration": 1229932400,
               "status": "passed"
             },
             "match": {
@@ -35,22 +56,10 @@
         "steps": [
           {
             "result": {
-              "duration": 14670297700,
+              "duration": 297938100,
               "status": "passed"
             },
-            "line": 5,
-            "name": "the user logged in",
-            "match": {
-              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 209686500,
-              "status": "passed"
-            },
-            "line": 6,
+            "line": 8,
             "name": "the user to clicks the like button on any Employee post",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_to_clicks_the_like_button_on_any_Employee_post()"
@@ -59,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 216866000,
+              "duration": 269832800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "the user should be able see the like icon on the screen",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_see_the_like_icon_on_the_screen()"
@@ -71,10 +80,10 @@
           },
           {
             "result": {
-              "duration": 134891300,
+              "duration": 165911600,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "the user clicks the follow button on any Employee post",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_clicks_the_follow_button_on_any_Employee_post()"
@@ -83,10 +92,10 @@
           },
           {
             "result": {
-              "duration": 80356300,
+              "duration": 85996800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "the user should be able see the follow button changed as unfollow",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_see_the_follow_button_changed_as_unfollow()"
@@ -95,10 +104,10 @@
           },
           {
             "result": {
-              "duration": 927108400,
+              "duration": 1557516900,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "the user to clicks the comment button on any Employee post",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_to_clicks_the_comment_button_on_any_Employee_post()"
@@ -107,10 +116,10 @@
           },
           {
             "result": {
-              "duration": 230441600,
+              "duration": 235025800,
               "status": "passed"
             },
-            "line": 11,
+            "line": 13,
             "name": "the user type \"Hello\" into the comment box",
             "match": {
               "arguments": [
@@ -125,10 +134,10 @@
           },
           {
             "result": {
-              "duration": 155731600,
+              "duration": 132573800,
               "status": "passed"
             },
-            "line": 12,
+            "line": 14,
             "name": "the user clicks the send button",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_clicks_the_send_button()"
@@ -137,10 +146,10 @@
           },
           {
             "result": {
-              "duration": 5354263800,
+              "duration": 1467678000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "the user should be able to send the message",
             "match": {
               "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_to_send_the_message()"
@@ -153,7 +162,331 @@
             "name": "@portal"
           },
           {
-            "name": "@wip"
+            "name": "@AZUL-736"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16949754500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-19T21:51:32.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2338877900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should be able to like or make comments on all other reviewers\u0027 comments.",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-interact-with-employees-on-the-posts-that-i-have-access-to.;user-should-be-able-to-like-or-make-comments-on-all-other-reviewers--comments.",
+        "after": [
+          {
+            "result": {
+              "duration": 927765900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171602100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks the like button on the reviewers\u0027 comments.",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_clicks_the_like_button_on_the_reviewers_comments()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100938300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should be able see the comment-like icon on the screen",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_see_the_comment_like_icon_on_the_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 734813200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user to clicks the reply button on any other reviewers\u0027 comments.",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_to_clicks_the_reply_button_on_any_other_reviewers_comments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329795900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user type \"Hello\" into the comment box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_type_into_the_comment_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138369700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks the send button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_clicks_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2832485600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should be able to send the message",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_to_send_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@portal"
+          },
+          {
+            "name": "@AZUL-737"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16489797800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-19T21:51:56.971Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2095113300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User should be able to click on reviewers\u0027 names and visit their profiles.",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-interact-with-employees-on-the-posts-that-i-have-access-to.;user-should-be-able-to-click-on-reviewers--names-and-visit-their-profiles.",
+        "after": [
+          {
+            "result": {
+              "duration": 1373457200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164880000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks on reviewers\u0027 icon on any Employee post",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_clicks_on_reviewers_icon_on_any_Employee_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 689054400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user clicks on the first reviewers\u0027 name",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_clicks_on_the_first_reviewers_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2506893400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user should be able to visit the reviewers\u0027 profile",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_to_visit_the_reviewers_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@portal"
+          },
+          {
+            "name": "@AZUL-738"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17152893200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-19T21:52:20.301Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2438156700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "User should be able to add others\u0027 posts to favorite by clicking on the Star icon.",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-interact-with-employees-on-the-posts-that-i-have-access-to.;user-should-be-able-to-add-others--posts-to-favorite-by-clicking-on-the-star-icon.",
+        "after": [
+          {
+            "result": {
+              "duration": 1192506300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3175485700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the clicks the star icon on the first employees post",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_clicks_the_star_icon_on_the_first_employees_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5701415700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user should be able add the favorites",
+            "match": {
+              "location": "com.azulcrm.step_definitions.PortalStepDefs.the_user_should_be_able_add_the_favorites()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@portal"
+          },
+          {
+            "name": "@AZUL-739"
           }
         ]
       }

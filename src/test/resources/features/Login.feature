@@ -1,6 +1,7 @@
 @login
 Feature: Login
 
+  @AZUL-735
   Scenario: the user should be able to login
     Given the user on the login page
     When the user enters the username and password
